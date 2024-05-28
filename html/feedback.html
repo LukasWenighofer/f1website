@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Feedback</title>
+  <link href="../style.css" rel="stylesheet" type="text/css" />
+  <style>
+    .content {height: 1220px;}
+  </style>
+   <link rel="icon" type="image/x-icon" href="../fotos/f1logo123.gif">
+</head>
+
+<body>
+  <nav>
+  <div class="nav"><a href="../index.html"><img src="../fotos/logo_f1.png" alt="Logo" class="rahmen" style="z-index: 1; float: left; background-color: black; height: 39px;"></a></div>
+    
+    <div style="z-index: 2; height: 45px;"><ul>
+  <li style="float: right;"><a href="feedback.html">Feedback</a></li>
+
+         <li style="float: right;"><a href="quiz.html">Quiz</a></li>
+  <li style="float: right;"><a href="weltrekorder.html">Weltrekorde</a></li> 
+          
+    <li style="float: right;"><a href="fahrerweltmeister.html">Fahrerweltmeister</a></li>
+
+   
+    <li class="dropdown" style="float: right;">
+    <a href="#" class="dropbtn">aktuelle Saison</a>
+    <div class="dropdown-content">
+      <a href="rennen.html">Rennen</a>
+      <a href="autos.html">Autos</a>
+      <a href="fahrer.html">Fahrer</a>
+    </div>
+  </li>
+</ul>
+</div>
+    
+ </nav>
+
+  <div  class="mitte">
+    <div class="content">
+      
+      <div class="feed">
+        <form id="formula" action="https://myserver123" method="get"><h2>Feedback</h2>
+        <p>Wie hat Ihnen die Website gefallen?</p>Schlecht<input type="range" name="bereich" min="1" max="10" value="5" oninput="ber.value=value" style="margin-left: 15px;"><output id="ber" style="margin-left: 10px"></output>   Gut<br><br><br>
+          <p>Geben Sie Feedback</p>
+          <textarea name="textfeld" rows="5" cols="40" style="resize: none;" maxlength="200"></textarea><br><br><br><br>
+        <input type="submit" value="Abschicken" style="margin-left: 110px;">
+          </form>
+      </div>
+    <div class="impre">
+      <h2>Impressum</h2><br>
+      Tel: 0123/456789 <br><br>
+      Mail:<a href="mailto:lukas.wenighofer@sz-ybbs.ac.at"> lukas.wenighofer@sz-ybbs.ac.at</a> <br><br><br>
+       <form id="formula1" action="https://myserver1234" method="get">
+      <fieldset>
+       <legend>Anmelden</legend>
+       <input type="text" name="vor" placeholder="Vorname"><br>
+       <input type="text" name="nach" placeholder="Nachname"><br>
+        <input type="password" name="PW" placeholder="Passwort">
+     </fieldset><br>
+         <input type="submit" value="Anmelden" style="margin-left: 100px">
+      </form>
+    </div>
+    </div>
+  </div>
+  
+  
+  <footer><br><div class="copy" style="margin-left: 30px;">&#169;Lukas Wenighofer</div><div style="float: right; margin-right: 30px;"><a href="feedback.html">Impressum</a></div></footer>
+
+
+</body>
+</html>

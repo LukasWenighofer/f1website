@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+footer {background-color: black;}
+.copy {color:white; display: inline;}
+.im {float: right; color: white;}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  height: 45px;
+}
+
+li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #ff6666;
+}
+
+.active {
+  background-color: red;
+}
+
+img {display: inline;}
+
+.mitte {background-color: black; width: 1120px; margin: auto;}
+
+body {margin: 0px;}
+
+.active2 {background-color: red;}
+
+summary {color: white;}
+
+a {color: white;}
+
+
+  background-color:white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #38444d;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  transform: translateY(-5px);
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block; 
+}
+
+nav a:hover {background-color: red; color: white;}
+
+.content {width: 1120px; background-color: black; height: 5000px; margin: auto; border-top: 2px solid red; border-bottom: 2px solid red;}
+
+body {
+  background-image: url("fotos/carbonpic.webp");
+}
+
+.rahmen {border-bottom: 6px solid black;}
+
+footer {height: 60px; background-color: black; font-size: 20px;}
+
+.copy {margin-top: 17px;}
+
+
+
+
+
+table, th, td {
+ color: white;
+ font-size: 20px;
+ border: 4px solid white;
+ border-collapse: collapse;
+  height: 50px;
+  width: 700px;
+  margin: auto;
+  margin-top: 50px;
+} 
+
+.un {margin-right: 100px;}
+
+.Über {color: white; height: 200px; margin-left: 200px;}
+
+* {font-family: "Playfair Display", Arial;}
+
+.rennen {margin-top: 50px; color: white; margin-left: 250px; font-size: 18px; margin-right: 250px;}
+
+.autodiv {color: white; margin-top: 80px; margin-left: 320px; font-size: 20px;}
+
+.rechts {float: right; margin-right: 5px;}
+.links {float: left; margin-left: 5px;}
+
+.fahrer {color: white; font-size: 30px; margin-left: 350px;}
+
+.fig {margin-left: 70px;}
+
+.recht {margin-left: 480px; margin-top: -120px; margin-right: 100px; font-size: 20px;}
+
+.welt {height: 65px;}
+
+.welt2 {color: white; margin-left: 150px; margin-top: 150px; margin-right: 150px; font-size: 20px;}
+
+.impre {margin-left: 350px; margin-right: 350px; margin-top: 200px; color: white;}
+
+.feed {color: white; margin-left: 350px; margin-right: 350px; margin-top: 150px;}
+
+.text1 {position: absolute; text-align: center; margin: auto;}
+
+.text1:hover {position: absolute; text-align: center; margin: auto; background-color: none;}
+
+.erkl {font-size: 30px; color: white; margin-left: 60px; margin-right: 60px; margin-top: 30px;}
+
+.qs {margin-left: 450px; text-align: center; margin: auto; padding: 10px;}
+
+.pr {width: 1000px; border: 5px red solid; margin-top: 40px; height: 500px; z-index: 1; margin-left: 60px;}
+
+.dia {width: 850px; background-color: blue; height: 150px;margin-left: 75px; margin-top: 200px;}
+ 
+/*.dia2 {width: 595px; background-color: green; height: 150px;margin-left: 75px; margin-top: -150px;}*/
