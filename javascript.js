@@ -1,3 +1,7 @@
+var frage;
+
+
+
 var frage1 = [{"frag":"Welcher Fahrer war in den 1970er Jahren sehr berühmt.","antwort":"Niki Lauda"},{"frag":"Welche Fahrer haben die meisten Meistertitel.","antwort":"Hamilton und Schumacher"},
     {"frag":"Wann gewann Michael Schumacher seinen ersten Titel","antwort":"1994"},{"frag":"Mit wie vielen Jahren hatte Max Verstappen sein F1-Debut.","antwort":"17"},{"frag":"Wer war der erste F1-Weltmeister.","antwort":"Farina"},
     {"frag":"Welche Fahrer hatten über mehrere Jahre spannende Battle nachdem ihr Team 2014 dominant wurde.","antwort":"Hamilton und Rosberg"},{"frag":"Größter Abstand(erster-zweiter)","antwort":"5min 12s"},
