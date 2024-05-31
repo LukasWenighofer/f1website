@@ -217,8 +217,8 @@ function quiz() {
                     richtig++;
                 }
             }
-            window.alert("Sie haben " + richtig + "/10 richtig");
         }
+        window.alert("Sie haben " + richtig + "/10 richtig");
 
     }
     if (frag == '3') {
@@ -249,12 +249,13 @@ function quiz() {
         window.alert("Sie haben " + richtig + "/10 richtig");
     }
     grun = (richtig / 10) * 850;
+    document.getElementById("pr").innerHTML = ` <br>
+            <h1 style = "margin-top: 75px; margin-left: 50px; font-size: 35px;"> Ihr Ergebnis: ${richtig}/10</h1> 
+            <div className="dia" style="width: 850px; background-color: blue; height: 150px;margin-left: 75px; margin-top: 100px;">
+            </div> 
+            <div id="dia2" style="width: ${grun}px; background-color: rgb(0,128,0); height: 150px;margin-left: 75px; margin-top: -150px;"> 
+            <p style="margin: auto; text-align: center; vertical-align: middle; font-size: 90px">${richtig/10}</p>
+            </div> `;
 }
 
 
-document.getElementById("pr").innerHTML = ` <br>
-  <h2 style = "margin-top: 75px; margin-left: 50px; font-size: 35px;"> Ihr Ergebnis: </h2> 
-  <div className="dia" style="width: 850px; background-color: blue; height: 150px;margin-left: 75px; margin-top: 150px;">
-   </div> 
-   <div id="dia2" style="width: grun; background-color: rgb(0,128,0); height: 150px;margin-left: 75px; margin-top: -150px;"> 
-   </div> `;
