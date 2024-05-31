@@ -52,8 +52,6 @@ summary {color: white;}
 a {color: white;}
 
 
-  background-color:white;
-}
 ul {
   list-style-type: none;
   margin: 0;
@@ -165,7 +163,7 @@ table, th, td {
 
 .text1 {position: absolute; text-align: center; margin: auto;}
 
-.text1:hover {position: absolute; text-align: center; margin: auto; background-color: none;}
+.text1:hover {position: absolute; text-align: center; margin: auto;}
 
 .erkl {font-size: 30px; color: white; margin-left: 60px; margin-right: 60px; margin-top: 30px;}
 
@@ -173,6 +171,6 @@ table, th, td {
 
 .pr {width: 1000px; border: 5px red solid; margin-top: 40px; height: 500px; z-index: 1; margin-left: 60px;}
 
-.dia {width: 850px; background-color: blue; height: 150px;margin-left: 75px; margin-top: 200px;}
+.dia {width: 850px; background-color: blue; height: 150px;margin-left: 75px; margin-top: 150px;}
  
 /*.dia2 {width: 595px; background-color: green; height: 150px;margin-left: 75px; margin-top: -150px;}*/
