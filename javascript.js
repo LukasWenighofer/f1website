@@ -254,7 +254,7 @@ function quiz() {
             <div className="dia" style="width: 850px; background-color: blue; height: 150px;margin-left: 75px; margin-top: 100px;">
             </div> 
             <div id="dia2" style="width: ${grun}px; background-color: rgb(0,128,0); height: 150px;margin-left: 75px; margin-top: -150px;"> 
-            <p style="margin: auto; text-align: center; vertical-align: middle; font-size: 90px">${richtig/10}</p>
+            <p style="margin: auto; text-align: center; vertical-align: middle; font-size: 90px">${(richtig/10)*100}%</p>
             </div> `;
 }
 
