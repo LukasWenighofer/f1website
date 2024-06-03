@@ -120,7 +120,7 @@ var frage3 = [{
     }, {
         "frag": "Wie heißt die beste Motorradrennklassen.",
         "antwort": "MotoGP"
-    }, {"frag": "Welches 24h Renne ist das bekannteste.", "antwort": "Le Mans"},
+    }, {"frag": "Welches 24h Rennen ist das bekannteste.", "antwort": "Le Mans"},
     {
         "frag": "Was ist die Triple Crown im Motorsport",
         "antwort": "Wenn man Monaco(F1), Le Mans(24h) und Indy500 gewinnt."
