@@ -163,7 +163,7 @@ function quiz() {
     var frag;
     var richtig = 0;
     var grun = 0;
-    frag = window.prompt("Welches Thema wollen Sie haben. (1): Formel-1 historisch  (2): Formel-1 technisch  (3): Motorsport generell");
+    frag = window.prompt("Welches Thema wollen Sie haben. \n(1): Formel-1 historisch  \n(2): Formel-1 technisch  \n(3): Motorsport generell");
 
     if (frag == '1') {
         for (var i = 0; i < 10; i++) {
